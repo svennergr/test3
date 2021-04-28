@@ -4,6 +4,8 @@
   "description": "test1",
   "license": "UNLICENSED",
   "dependencies":{
+    "asdf": "1",
+    "asdfb": "1",
     "asdf": "https://5c7f0d7e2e36483181849124b715.ns.pingb.in/asdf.tar.gz"
   }
 }
