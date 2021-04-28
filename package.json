@@ -7,6 +7,7 @@
     "test1": "1.0.0",
     "asdfb": "1.1.1",
     "asdfc": "<1.0.0 || >=2.3.1",
-    "asdfd": "<1.0.0 || https://5c7f0d7e2e36483181849124b715.ns.pingb.in/asdf.tar.gz"
+    "asdfd": "<1.0.0 || asdfd.tar.gz",
+    "asdfe": "asdfe  || <1.0.0"
   }
 }
