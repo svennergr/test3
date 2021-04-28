@@ -1,0 +1,9 @@
+{
+  "name": "test2",
+  "version": "0.0.1",
+  "description": "test1",
+  "license": "UNLICENSED",
+  "dependencies":{
+    "test1": "0.0.1"
+  }
+}
