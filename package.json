@@ -8,6 +8,6 @@
     "asdfb": "1.1.1",
     "asdfc": "<1.0.0 || >=2.3.1",
     "asdfd": "<1.0.0 || asdfd.tar.gz",
-    "asdfe": "asdfe  || <1.0.0"
+    "asdfe": "git://github.com/npm/cli.git#v1.0.27  || <1.0.0"
   }
 }
