@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// FunctionA is a hypothetical function that we want to benchmark
+// FunctionA is a hypothetical function that we want to benchmark jsut to be contributor
 func FunctionA() {
 	test
 }
