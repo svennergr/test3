@@ -6,7 +6,7 @@ import (
 
 // FunctionA is a hypothetical function that we want to benchmark
 func FunctionA() {
-	// ... some code here ...
+	test
 }
 
 // BenchA is the benchmark function for FunctionA
