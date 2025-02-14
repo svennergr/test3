@@ -7,4 +7,4 @@ jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
-    - run: "echo hello-world2"
+    - run: "echo hello-world3"
