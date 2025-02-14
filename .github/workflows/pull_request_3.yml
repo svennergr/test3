@@ -8,4 +8,4 @@ jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
-    - run: "echo hello-world3"
+    - run: "echo hello-world4"
