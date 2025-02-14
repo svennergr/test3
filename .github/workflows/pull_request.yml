@@ -1,0 +1,8 @@
+name: "Action in PR"
+on:
+- pull_request_target
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - run: "echo hello-world"
